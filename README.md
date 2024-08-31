@@ -11,8 +11,10 @@ mkdir arithmetic-cli
 cd arithmetic-cli
 npm init -y
 
+
 2. Install the commander library:
 npm install commander
+
 
 3. Step 3: Create the Arithmetic Module
 Create a file named arithmetic.js for the module that provides the arithmetic operations.
