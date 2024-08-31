@@ -53,6 +53,8 @@ Output: Cannot divide by zero
 
 Explanation
 arithmetic.js: Defines and exports basic arithmetic functions.
+
 cli.js: Uses commander to set up a command-line interface. It defines commands for each arithmetic operation and uses the functions from arithmetic.js to perform the calculations based on user input.
+
 program.parse(process.argv): Parses command-line arguments and executes the appropriate command.
 This setup creates a simple CLI application for performing arithmetic operations, showcasing how to use commander to handle command-line arguments and interact with custom module.
