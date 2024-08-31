@@ -3,32 +3,32 @@ Hard Skill Day 1: Introduction to Node Package Manager
 
 npm Exercise: Publish to npm Package
 
-In this exercise, you will learn how to publish your own package to the npm registry. Publishing your package allows others to use your code and contributes to the open-source community. It’s a great way to share your projects, libraries, and tools with a wider audience.
+In this exercise,  learn how to publish  own package to the npm registry. Publishing  package allows others to use  code and contributes to the open-source community. It’s a great way to share projects, libraries, and tools with a wider audience.
 
 Objectives
-By the end of this exercise, you will be able to:
+By the end of this exercise,  be able to:
 
 Create a simple Node.js module.
 Prepare the module for publishing.
 Publish the module to the npm registry.
-Manage and update your published package.
+Manage and update  published package.
 Prerequisites
-Before you start, make sure you have:
+Before  start, make sure  have:
 
 A working Node.js and npm installation.
-An npm account. If you don’t have one, you can create it by running npm adduser in your terminal.
-Steps to Publish Your Package
-Create Your Module: Start by creating a new directory for your module, then create the JavaScript file containing your module's code.
+An npm account. If  don’t have one,  can create it by running npm adduser in  terminal.
+Steps to Publish  Package
+Create  Module: Start by creating a new directory for  module, then create the JavaScript file containing  module's code.
 
-Set Up package.json: Use npm init to create a package.json file that contains metadata about your package, such as its name, version, and description.
+Set Up package.json: Use npm init to create a package.json file that contains metadata about  package, such as its name, version, and description.
 
-Write Your Code: Implement the functionality of your module and export it using module.exports.
+Write  Code: Implement the functionality of  module and export it using module.exports.
 
-Login to npm: Make sure you are logged in to your npm account using npm login.
+Login to npm: Make sure  are logged in to  npm account using npm login.
 
-Publish Your Package: Run npm publish to publish your package to the npm registry.
+Publish  Package: Run npm publish to publish  package to the npm registry.
 
-Update Your Package: If you make changes to your module, update the version in package.json and run npm publish again to publish the updated version.
+Update  Package: If  make changes to  module, update the version in package.json and run npm publish again to publish the updated version.
 
 Example Code
 In this example, I'll create a module that provides simple arithmetic operations.
