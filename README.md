@@ -6,9 +6,13 @@ Example Code
 In this example, I'll create a module that provides simple arithmetic operations.
 
 Step 1: Set Up Project
-Initialize project (if not already done):
+
+Initialize project:
+
 mkdir arithmetic-cli
+
 cd arithmetic-cli
+
 npm init -y
 
 2. Install the commander library:
